@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cuadro{
+    width: 300px;
+    height: 350px;
+    background: rgb(169, 212, 247);
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+.letras{
+    width: 350px;
+    height: 350px;
+    background: rgb(169, 212, 247);
+
+}

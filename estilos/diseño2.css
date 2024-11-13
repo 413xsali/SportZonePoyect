@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    height: 150vh;
+    background-color: rgb(96, 96, 235);
+} 
+body .caja_grande{
+    width: 90%;
+    height: 100vh;
+    background-color: beige;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+body .caja_mediana{
+    width: 70%;
+    height: 50vh;
+    background-color: aquamarine; 
+    margin-top: 60%;
+    text-align: auto;
+    margin: auto;
+    border-radius: 90%;
+    
+
+
+
+}

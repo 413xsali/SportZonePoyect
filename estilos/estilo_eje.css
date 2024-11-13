@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(205, 241, 241);
+}
+
+header{
+    width: 99%;
+    height: 180px;
+    margin: auto;
+    background-color: rgb(125, 151, 143);
+}
+
+body header .cabeza_izq{
+    width: 30%;
+    height: 180px;
+    float: left;
+    background-color: rgb(240, 247, 202);
+}
+
+body header .cabeza_izq img{
+    width: 150px;
+    height: 150px;
+    padding-left: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+body header .cabeza_cen{
+    width: 40%;
+    height: 180px;
+    float: left;
+    background-color: white;
+}
+
+body header .cabeza_cen .titulo{
+    margin-top: 15PX;
+    text-align: CENTER;
+    margin-bottom: 24PX;
+}
+
+body header .cabeza_cen P{
+    font-size: 15PX;
+    text-align: CENTER;
+}
+
+body header .cabeza_der{
+    width: 30%;
+    height: 180px;
+    float: left;
+    background-color: rgb(140, 164, 172);
+}
+
+.navbar{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: centar;
+    background-color: rgb(190, 229, 246);
+    color: #FFF;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav_links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav_links li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links li a:hover{
+    font-size: 22px;
+    color: rgb(170, 158, 224);
+}
+
+

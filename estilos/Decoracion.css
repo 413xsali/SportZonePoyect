@@ -1,0 +1,182 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('https://sportsmedicinesystems.com/wp-content/uploads/2021/08/Foro-virtual-El-deporte-dentro-y-fuera-de-la-cancha-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, rgb(58, 58, 241), rgb(157, 243, 157));
+    opacity: 0.4;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    float: left;
+    background: linear-gradient(to right, rgb(207, 196, 238), rgb(192, 253, 184));
+
+}
+
+body header .head_iz {
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+
+body header .head_iz .img-izq img {
+    width: 20%;
+    height: 70px;
+    border-radius: 25%;
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+body header .head_cen {
+    width: 40%;
+    height: 70px;
+    float: left;
+}
+
+body header .head_cen .titulo {
+    text-align: center;
+    font-size: 50px;
+    float: center;
+    padding-top: 1px;
+    margin: 5px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(209, 240, 188));
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+
+
+}
+
+body header .head_der {
+    width: 30%;
+    height: 90px;
+    float: right;
+}
+
+body header .head_der img {
+    width: 20%;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 80%;
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+
+
+
+}
+
+body .nav {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(177, 194, 171) , rgb(2, 187, 58));
+    justify-content: space-between;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+
+
+
+}
+
+.nav_link {
+    display: flex;
+    gap: 250px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 0.3%;
+   
+
+
+
+}
+
+a {
+    background: linear-gradient(to right, rgb(71, 32, 143), rgb(0, 0, 0));
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: large;
+    margin-top: 100%;
+    text-align: center;
+
+    
+
+
+
+}
+#search {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    }
+
+body main {
+    display: flex;
+}
+
+body main .seccion {
+    width: 60%;
+    height: 280px;
+    margin-top: 427px;
+    background: linear-gradient(to right, rgb(255, 60, 0), rgb(20, 240, 156), rgb(117, 188, 253));
+    opacity: .8;
+}
+
+body main .aside {
+    width: 40%;
+    height: 280px;
+    margin-top: 427px;
+    background: linear-gradient(to right, rgb(124, 233, 166), rgb(53, 233, 77));
+    opacity: .8;
+
+}
+
+body .fondo p {
+    text-align-last: center;
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 34, 16);
+
+
+}

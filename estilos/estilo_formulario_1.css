@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 212, 241);
+    margin-top: 50px;
+
+
+}
+
+.formulario_registro {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-style: calibry;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 17px rgb(90, 89, 89);
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.formulario_registro h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-block-end: 30px;
+
+
+
+}
+
+.controles {
+    width: 100%;
+    background-color: rgb(245, 230, 230);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+
+.botones {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(185, 185, 185);
+}

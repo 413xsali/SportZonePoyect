@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: blueviolet;
+    align-items:  center;
+    text-align: center;
+}
+.multip{
+    background-color: rgb(224, 141, 15);
+
+}
